@@ -14,7 +14,7 @@ h1{
 
  }
 
-.info, .info-remove{
+ .info-remove{
       padding: 20px;
       text-align: center;
       width:  650px;
@@ -22,6 +22,12 @@ h1{
       font-size: 1.8em;
       border-bottom: .3px solid red;
 }
+.info{
+ color:  #2F4F4F;
+  font-size: 2em;
+
+}
+
 
 
 .cont {
@@ -60,13 +66,13 @@ img{
 }
 
 .box{
-  width: 104.5px;
-  height: 85.5px;
-  float: right;
-  text-align: center;
-  background-image: url('smal3.jpg');
-  box-shadow: 1px 1px 3px #888888; 
-  z-index: 9999;
+    width: 104.5px;
+     height: 85.5px;
+      float: right;
+        text-align: center;
+          background-image: url('smal3.jpg');
+           box-shadow: 1px 1px 3px #888888; 
+ 
   display: inline;
   position: relative;
   bottom: -18px;
@@ -77,31 +83,29 @@ img{
    
 }
 
-ul{
+.cont ul{
     list-style-type: none;
-   
-    list-style-type: none;
-    padding: 6px;
-    font-weight: 800;
-    font-size: 1em;
+        padding: 4px;
+          font-weight: 800;
+            font-size: 1.1em;
 
    }
 
  .box {
-  
-     
       padding: 1px;
-      position: relative;
-      left: -10px;
-       margin-left: 9px;
+        position: relative;
+          left: -10px;
+            margin-left: 9px;
     
    
 }
- .box:last-child{display: none;}
+ .box:last-child{
+               display: none;
+}
+
 
 body{
-
-  background-color: #DFDFDF;
+     background-color: #DFDFDF;
   
  }
 
@@ -114,21 +118,21 @@ body{
  }
 
 .content_wrapper > button {
-
-  float: right;
-  padding-right: 8px;
-  margin-right: 10em;
+                          float: right;
+                            padding-right: 8px;
+                              margin-right: 10em;
 }
 
 
 .button{
-  float: right;
-  padding-right: 2px;
-  margin-right: 7em;
+       float: right;
+        padding-right: 2px;
+         margin-right: 7em;
 }
 
 
 .big-button{
+  font-family: 'Enriqueta', serif;
   margin-top: 20px;
   margin-left:auto;
   margin-right:auto;
@@ -143,8 +147,7 @@ body{
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #f39c12;
-   border-radius: 5px;
-  
+  border-radius: 5px;
   cursor: pointer;
   box-shadow: inset  -2px #e8930c;
  
@@ -171,28 +174,37 @@ body{
 
 }
  .social {
-    position: relative;
-    left: -30px;
-
+          position: relative;
+            left: -30px;
 }
 
-.footer p {
+.footer p,  {
     position: relative;
     left: -35px;
     color: #551a8b;
+   
+
+}
+
+.footer ul{
+
+ list-style-type: none; 
 
 }
 a{
 
   color: #003366; 
+   list-style-type: none; 
+
 }
+
 input{
       float: right;
       position: relative;
       bottom: 22px;
       left: -14px;
       width: 20em;
-      height: 2em;
+      height: 2.5em;
       font-size: .5em;
       margin-top: 3px;
 
@@ -229,8 +241,25 @@ a.down {
     }
 
 
+.border1{
+  width:   516px;
+  height: 3.5em;
+  background-color: #9C9F84;
+   margin-left:  auto; 
+      margin-right:  auto; 
+      margin-top: 40px;
+      margin-bottom: 30px;
 
-
+  padding: 2px;
+  position: relative;
+  text-align: center;
+  border-radius: 4px
+}
+.border1 > p{
+ left: -14px;
+  text-align: center;
+    font-size: 1.4em;
+}
 
 
 
