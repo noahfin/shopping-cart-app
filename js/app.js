@@ -11,6 +11,15 @@ $('ul').on('click', '.item', function(event){
 
   // fires when any LIs are clicked on
   // including LIs that aren't on the page when it is initially loaded
+})
+
+$(document).ready(function(){
+    $('a.button').click(function(){
+        $(this).toggleClass("down");
+    });
 });
+
+
+
 });
 

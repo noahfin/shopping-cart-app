@@ -78,11 +78,11 @@ img{
 }
 
 ul{
-     list-style-type: none;
+    list-style-type: none;
      padding: 5px;
-     list-style-type: none;
-     padding: 6px;
-     font-weight: 800;
+    list-style-type: none;
+    padding: 6px;
+    font-weight: 800;
 
    }
 
@@ -107,11 +107,18 @@ body{
  
  }
 
-.content_wrapper > button{
+.content_wrapper > button {
 
   float: right;
   padding-right: 8px;
   margin-right: 10em;
+}
+
+
+.button{
+  float: right;
+  padding-right: 2px;
+  margin-right: 7em;
 }
 
 
@@ -195,5 +202,24 @@ form{
   font-size: 1em;
 
 }
+
+
+
+
+a.down {
+    background: #bbb;
+    border-top: solid 2px #777;
+    border-left: solid 2px #777;
+    border-bottom:solid 2px  #eaeaea;
+    border-right: solid 2px #eaeaea;
+    }
+
+
+
+
+
+
+
+
 
 
