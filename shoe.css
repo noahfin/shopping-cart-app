@@ -1,19 +1,15 @@
 
 
 h1{
-     color:  #9A3334;
-     background-color: #666633;
-    
+    color:  #2F4F4F;
+    background-color: #666633;
     box-shadow: 10px 10px 5px #888888; 
-    
-     width: 100%;
-    
-
-     margin-bottom: 20px;
-     text-align: center;
-     font-size: 4em;
-     
-   padding:  30px;
+    text-shadow: 2px 2px #7f0000;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 4em;
+    padding:  30px;
 
  }
 
@@ -63,7 +59,7 @@ img{
   z-index: 9999;
   display: inline;
   position: relative;
-  bottom: -30px;
+  bottom: -18px;
   left: -10px;
   clear: left;
 
@@ -149,3 +145,14 @@ body{
 
 }
 
+input{
+  float: right;
+  position: relative;
+   bottom: 20px;
+  left: -100px;
+  width: 14em;
+  font-size: .5em;
+
+  
+
+}
