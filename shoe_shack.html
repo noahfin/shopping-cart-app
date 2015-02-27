@@ -6,6 +6,9 @@
 Shoe Shack in jquery
 </TITLE>
 <link rel="stylesheet" type="text/css" href="shoe.css">
+ <script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/app.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Enriqueta:400,700' rel='stylesheet' type='text/css'>
 </HEAD>
 
 
@@ -23,47 +26,35 @@ Shoe Shack in jquery
     
 <div class = "cartItems">
     <h2>Items in cart </h2>
-      <ul >
+      <ul class = 'add-list' >
         <span class="content_wrapper"> <button type="button">remove!</button>
              <li> shoe item 1</li>
         </span>
 
       <span class="content_wrapper"> <button type="button">remove!</button>
-             <li> shoe item 2</li>
+             <li id ="holder"> shoe item 2</li>
         </span>
 
-        <span class="content_wrapper"><button class="delate" type="button">remove!</button> 
-             <li> shoe item 3</li>
+        <span class="content_wrapper"><button class="delate0" type="button">remove!</button> 
+             <li id ="msg"> shoe item 3</li>
         </span>
 
-        <span class="content_wrapper"><button class="delate" type="button">remove!</button>
-             <li> shoe item 4</li>
-        </span>
-
-        <span class="content_wrapper"><button class="delate" type="button">remove!</button> 
-             <li> shoe item 5</li>
-        </span>
-
-            <span class="content_wrapper"> <button class="delate" type="button">remove!</button>
-             <li> shoe item 6</li>
-        </span>
+       
        </ul>
     </div> 
     
-     <form>
-    Enter shoe:<br>
-<input type="text" name="shoe">
-
-</form>
+     <form>Enter shoe:<br>
+          <input type="text" name="new-shoe"></input>
+  </form>
       
      
      <ul>
-        <li class='box'>shoe </li>
-        <li class='box'>shoe </li>
-        <li class='box'>shoe </li>
-        <li class='box'>shoe </li>
-        <li class='box'>shoe </li>
-        <li class='box'>shoe </li>
+        <li class='box'></li>
+        <li class='box'></li>
+        <li class='box'></li>
+        <li class='box'></li>
+        <li class='box'></li>
+        <li class='box'></li>
        
        </ul>
 </div>
@@ -72,7 +63,7 @@ Shoe Shack in jquery
   </div>  
 
 <div class= "footer">
-      <p>Say hi to me on these social networks:</p>
+      <p>Say hi to us on these social networks:</p>
    <ul class="social">
      <li><a href="https://github.com/nonothetoad">Github</a></li>
      <li><a href="https://www.facebook.com/profile.php?id=100001238550883">Facebook</a></li>

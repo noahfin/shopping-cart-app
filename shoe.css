@@ -1,6 +1,7 @@
 
 
 h1{
+  font-family: 'Enriqueta', serif;
     color:  #2F4F4F;
     background-color: #666633;
     box-shadow: 10px 10px 5px #888888; 
@@ -47,7 +48,10 @@ img{
    
 }
 
-
+.cont p {
+  font-family: 'Enriqueta', serif;
+  font-size: 1.6em;
+}
 
 .box{
   width: 96.5px;
@@ -55,13 +59,15 @@ img{
   float: right;
   text-align: center;
   background-image: url('smal3.jpg');
-   box-shadow: 1px 1px 3px #888888; 
+  box-shadow: 1px 1px 3px #888888; 
   z-index: 9999;
   display: inline;
   position: relative;
   bottom: -18px;
   left: -10px;
   clear: left;
+
+
 
 
     
@@ -73,14 +79,15 @@ ul{
 
    }
 
-ul li{
+ul li, .item{
     color: #990033;
-    font-size: 1.4em;
+      font-size: 1.4em;
    
 }
 ul{
     list-style-type: none;
        padding: 6px;
+        font-weight: 800;
 
 }
 
@@ -91,7 +98,8 @@ body{
  }
 
  h2{
- font-size: 2em;
+    font-size: 2em;
+  font-weight: 900;
  
  }
 
@@ -152,7 +160,5 @@ input{
   left: -100px;
   width: 14em;
   font-size: .5em;
-
-  
 
 }
