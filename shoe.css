@@ -54,16 +54,16 @@ img{
 
 
 .box{
-  width: 90.5px;
-  height: 90.5px;
+  width: 96.5px;
+  height: 91.5px;
   float: right;
   text-align: center;
-  background-image: url("..//sm6.jpg");
+  background-image: url('smal3.jpg');
+   box-shadow: 1px 1px 3px #888888; 
   z-index: 9999;
-  border: 1px solid black;
   display: inline;
   position: relative;
-  bottom: -40px;
+  bottom: -30px;
   left: -10px;
   clear: left;
 
@@ -98,8 +98,15 @@ body{
  
  }
 
+.content_wrapper > button{
 
-button{
+  float: right;
+  padding-right: 8px;
+  margin-right: 10em;
+}
+
+
+.big-button{
   margin-top: 20px;
 
 margin-left:auto;
