@@ -7,7 +7,7 @@ h1{
     box-shadow: 10px 10px 5px #888888; 
     text-shadow: 2px 2px #7f0000;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
     font-size: 4em;
     padding:  30px;
@@ -17,9 +17,10 @@ h1{
 .info{
       padding: 20px;
       text-align: center;
-      width:  500px;
+      width:  650px;
       margin: 0 auto;
-      font-size: 1.5em;
+      font-size: 1.8em;
+      border-bottom: .3px solid red;
 }
 
 
@@ -33,6 +34,7 @@ h1{
     padding: 5px 10px;
     margin: 0 auto;  
     box-shadow: 10px 10px 5px #888888; 
+    border-radius: 20px
 
 }
 
@@ -42,9 +44,13 @@ img{
     height:250px;
     margin: 0 auto; 
     float: left;
-    padding: 5px; 
+    padding: 8px; 
+
     position: relative;
     margin-right: 25px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px #888888; 
+
    
 }
 
@@ -64,32 +70,28 @@ img{
   display: inline;
   position: relative;
   bottom: -18px;
+
   left: -10px;
   clear: left;
 
-
-
-
-    
+   
 }
-ul{
-    list-style-type: none;
-       padding: 5px;
 
+ul{
+     list-style-type: none;
+     padding: 5px;
+     list-style-type: none;
+     padding: 6px;
+     font-weight: 800;
 
    }
 
-ul li, .item{
-    color: #990033;
+ul li{
+     color: black;
       font-size: 1.4em;
    
 }
-ul{
-    list-style-type: none;
-       padding: 6px;
-        font-weight: 800;
 
-}
 
 body{
 
@@ -99,7 +101,9 @@ body{
 
  h2{
     font-size: 2em;
-  font-weight: 900;
+      font-weight: 900;
+        font-family: 'Enriqueta', serif;
+
  
  }
 
@@ -121,7 +125,7 @@ body{
   width: 440px;
   height: 60px;
   padding: 0;
-  font-size: 22px;
+  font-size: 2em;
   color: white;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
@@ -138,27 +142,58 @@ body{
 .footer{
   
      background-color: #9C9F84;
-    box-shadow: 10px 10px 5px #888888; 
-    width: 100%;
-    height: 220px;
-    margin-bottom: 20px;
+     box-shadow: 10px 10px 5px #888888; 
+     width: 100%;
+     height: 220px;
+     margin-bottom: 20px;
      font-size: 4em;
      padding:  30px;
      color: #52007F;
-    margin-top: 60px;
-    padding-top: 1em;
-    padding-bottom: .8em;
-    text-align: center;
-    font-size: 1.5em;
+     margin-top: 60px;
+     padding-top: 1em;
+     padding-bottom: .8em;
+     text-align: center;
+     font-size: 1.5em;
+
 
 }
-
-input{
-  float: right;
+ .social {
   position: relative;
-   bottom: 20px;
-  left: -100px;
-  width: 14em;
-  font-size: .5em;
+    left: -30px;
 
 }
+
+.footer p {
+    position: relative;
+    left: -35px;
+    color: #551a8b;
+
+}
+a{
+
+  color: #003366; 
+}
+input{
+      float: right;
+      position: relative;
+      bottom: 20px;
+      left: -90px;
+      width: 15em;
+      height: 2em;
+      font-size: .5em;
+      margin-top: 3px;
+
+}
+
+form{
+ margin-top: 60px;
+ position: relative;
+  font-size: 1em;
+
+}
+.item{
+  font-size: 1em;
+
+}
+
+
