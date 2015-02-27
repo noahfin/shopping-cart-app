@@ -14,7 +14,7 @@ h1{
 
  }
 
-.info{
+.info, .info-remove{
       padding: 20px;
       text-align: center;
       width:  650px;
@@ -120,7 +120,7 @@ body{
   margin-left:auto;
   margin-right:auto;
   display:block;
-  margin-top:3%;
+  margin-top:.6%;
   margin-bottom: 5%;
   width: 440px;
   height: 60px;
