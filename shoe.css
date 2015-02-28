@@ -1,4 +1,6 @@
 
+/*   Styles for the shoe shack shopping cart list app
+}*/
 
 h1{
   font-family: 'Enriqueta', serif;
@@ -7,17 +9,13 @@ h1{
     box-shadow: 10px 10px 5px #888888; 
     text-shadow: 2px 2px #7f0000;
     width: 100%;
-    height: 30px
     margin-bottom: 30px;
     text-align: center;
     font-size: 4.3em;
-    padding: 3px;
+    padding-left: 58px;
     
- 
-
  }
-
- .info-remove{
+.info-remove{
       padding: 20px;
       text-align: center;
       width:  650px;
@@ -25,13 +23,12 @@ h1{
       font-size: 1.8em;
       border-bottom: .3px solid red;
 }
+
 .info{
- color:  #2F4F4F;
-  font-size: 2em;
+      color:  #2F4F4F;
+      font-size: 2em;
 
 }
-
-
 
 .cont {
       
@@ -42,11 +39,15 @@ h1{
     border: 5px solid #CCC;
     padding: 0px 10px;
     margin: 0 auto;  
-   
     border-radius: 20px;
     padding: 3px;
 
 }
+
+/*span {
+    display: block;
+}*/
+
 
 img{
 
@@ -59,14 +60,24 @@ img{
     margin-right: 25px;
     border-radius: 20px;
     
+}
+.bag{
+    float: right;
+    width:80px; 
+    height:80px;
+    padding-right: 80px;
+    position: relative;
+    left: -420px;
+    bottom: 84px;
+    top: -5px;
+ 
 
 
-   
 }
 
 .cont p {
-  font-family: 'Enriqueta', serif;
-  font-size: 1.6em;
+      font-family: 'Enriqueta', serif;
+      font-size: 1.6em;
 }
 
 .box{
@@ -77,12 +88,11 @@ img{
           background-image: url('smal3.jpg');
            box-shadow: 1px 1px 3px #888888; 
  
-  display: inline;
-  position: relative;
-  bottom: -18px;
+        display: inline;
+      position: relative;
+    bottom: -18px;
   border-radius: 5px;
-  
-  clear: left;
+clear: left;
 
    
 }
@@ -108,9 +118,9 @@ img{
 }
 
 
-body{
-     background-color: #f5f5dc;
-     opacity: 1;
+  body{
+          background-color: #f5f5dc;
+       opacity: 1;
      position: relative;
   
  }
@@ -119,7 +129,7 @@ body{
     font-size: 2em;
       font-weight: 900;
          font-weight: bold;
-        font-family: 'Enriqueta', serif;
+         font-family: 'Enriqueta', serif;
 
  
  }
@@ -156,7 +166,7 @@ body{
   background: #f39c12;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: inset  -2px #e8930c;
+  box-shadow: inset  -2px #000000;
  
 
 }
@@ -218,11 +228,11 @@ input{
 }
 
 form{
- margin-top: 60px;
- position: relative;
-  font-size: 1em;
-  padding: 5px;
-
+      margin-top: 60px;
+      position: relative;
+      font-size: 1em;
+      padding: 5px;
+ 
 }
 .item{
   font-size: 1em;
@@ -243,28 +253,28 @@ a.down {
 .wrap-cont{
     border-left: solid 2px #eaeaea;
     border-right: solid 2px #eaeaea;
-      padding: 5px;
+    padding: 5px;
 
     }
 
 
 .border1{
-  width:   516px;
-  height: 3.5em;
-  background-color: #9C9F84;
-   margin-left:  auto; 
-      margin-right:  auto; 
-      margin-top: 25px;
-      margin-bottom: 20px;
-
-  padding: 2px;
-  position: relative;
-  text-align: center;
-  border-radius: 4px
+    width:   516px;
+    height: 3.5em;
+    background-color: #9C9F84;
+    margin-left:  auto; 
+    margin-right:  auto; 
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    border-radius: 4px
 }
 .border1 > p{
- left: -14px;
-  text-align: center;
+        
+    left: -14px;
+    text-align: center;
     font-size: 1.4em;
 }
 
